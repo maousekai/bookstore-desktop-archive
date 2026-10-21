@@ -1,0 +1,1067 @@
+{
+  "snapshot_date": "2026-10-21",
+  "files": [
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/pom.xml",
+      "original_sha256": "3b09c6ed7a7cf744b4c0d537144f8b565a48fa7b153dabbeec8b1e26ccb2c0f9",
+      "archived_sha256": "3b09c6ed7a7cf744b4c0d537144f8b565a48fa7b153dabbeec8b1e26ccb2c0f9",
+      "bytes": 3402,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/application/Main.java",
+      "original_sha256": "4a48b5a6037f7153e9d1efad4f03268a78ace659ee42a22037e185a684e9bea7",
+      "archived_sha256": "4a48b5a6037f7153e9d1efad4f03268a78ace659ee42a22037e185a684e9bea7",
+      "bytes": 1192,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/BangChamCongController.java",
+      "original_sha256": "a4b2d151d8908e29ad6829fb6d7370ccf6781b324a96ab169f27f9b1503ad2f9",
+      "archived_sha256": "a4b2d151d8908e29ad6829fb6d7370ccf6781b324a96ab169f27f9b1503ad2f9",
+      "bytes": 5743,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/BanHangController.java",
+      "original_sha256": "bb989b80ba66de2ae62383d6b25509f4e43d44cd083937fd2a9f16424b20fc46",
+      "archived_sha256": "bb989b80ba66de2ae62383d6b25509f4e43d44cd083937fd2a9f16424b20fc46",
+      "bytes": 28455,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/BaoCaoController.java",
+      "original_sha256": "0fb92c1fdf997353b8e4de8399a98b02eee926938844599a2eb171cc7ce6ab19",
+      "archived_sha256": "0fb92c1fdf997353b8e4de8399a98b02eee926938844599a2eb171cc7ce6ab19",
+      "bytes": 7528,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/CuaSoThanhToanController.java",
+      "original_sha256": "3974804fa8198fca9955cb1ed38339dc5f746a91e637ac8bb38d978e6dca6ed6",
+      "archived_sha256": "3974804fa8198fca9955cb1ed38339dc5f746a91e637ac8bb38d978e6dca6ed6",
+      "bytes": 5623,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/DangNhapController.java",
+      "original_sha256": "501ed6a11f08fb315221b7178d1db5d1eebaa404d660fe129e077afe080ace77",
+      "archived_sha256": "501ed6a11f08fb315221b7178d1db5d1eebaa404d660fe129e077afe080ace77",
+      "bytes": 3140,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/HoaDonController.java",
+      "original_sha256": "f40a74b220bcd3ccedb3e3d3405e059753538978f89e4e82d3463e114206bce8",
+      "archived_sha256": "f40a74b220bcd3ccedb3e3d3405e059753538978f89e4e82d3463e114206bce8",
+      "bytes": 5537,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/HoaDonNhapKhoController.java",
+      "original_sha256": "639641205f64e1ef0d9625560b94251055646c69fc202de78741c76410ecb2cb",
+      "archived_sha256": "639641205f64e1ef0d9625560b94251055646c69fc202de78741c76410ecb2cb",
+      "bytes": 4659,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/KhachHangController.java",
+      "original_sha256": "5aeffa434ad4fc42823d776d7db57cd89ee8586ec8d873b13ca2db3a92a76e5d",
+      "archived_sha256": "5aeffa434ad4fc42823d776d7db57cd89ee8586ec8d873b13ca2db3a92a76e5d",
+      "bytes": 6654,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/KhachHangEditController.java",
+      "original_sha256": "e4dbc6b2a806e134f5ea92bbd82d9a626742a7be38213340ad914131973e5a16",
+      "archived_sha256": "e4dbc6b2a806e134f5ea92bbd82d9a626742a7be38213340ad914131973e5a16",
+      "bytes": 2250,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/ManHinhChinhController.java",
+      "original_sha256": "0769a00cb475d4a8e00921b97a7c16996b05b1b1acaa8f26418f989583914419",
+      "archived_sha256": "0769a00cb475d4a8e00921b97a7c16996b05b1b1acaa8f26418f989583914419",
+      "bytes": 2671,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/NhanVienController.java",
+      "original_sha256": "bc06f69d14952553ca359248ab38716ea15d75831dbd85ae4876490de7c1c2cf",
+      "archived_sha256": "bc06f69d14952553ca359248ab38716ea15d75831dbd85ae4876490de7c1c2cf",
+      "bytes": 12894,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/SachController.java",
+      "original_sha256": "4ce70f7752265ba82df71d402d959d4232f55914c32b6abf40e8c3a5c2130169",
+      "archived_sha256": "4ce70f7752265ba82df71d402d959d4232f55914c32b6abf40e8c3a5c2130169",
+      "bytes": 3139,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/SachEditController.java",
+      "original_sha256": "5e0137404929467c9cb94e0de45be71e339c8bde54691782cbbc83b1ee555e90",
+      "archived_sha256": "5e0137404929467c9cb94e0de45be71e339c8bde54691782cbbc83b1ee555e90",
+      "bytes": 6074,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/SanPhamController.java",
+      "original_sha256": "475298da1bce196d32da936c7f707b0510d4fe679f5bfaf4e9ed2ba48e380f3c",
+      "archived_sha256": "475298da1bce196d32da936c7f707b0510d4fe679f5bfaf4e9ed2ba48e380f3c",
+      "bytes": 14444,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/ThemsanphamController.java",
+      "original_sha256": "a83ded93c852da1c76640ed8999a748fc04fba5c832d9ff9fe803ee08e98ed4b",
+      "archived_sha256": "a83ded93c852da1c76640ed8999a748fc04fba5c832d9ff9fe803ee08e98ed4b",
+      "bytes": 20285,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/TrangChuController.java",
+      "original_sha256": "b7fd778997bd3628042f1510e01fc41bd6b7ade72d704717245b9cfcabe0f21c",
+      "archived_sha256": "b7fd778997bd3628042f1510e01fc41bd6b7ade72d704717245b9cfcabe0f21c",
+      "bytes": 6700,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/VppController.java",
+      "original_sha256": "bd3c4290c785fdd813f7d1201ccb5e490e4580c65ce58fe41539285622718dd7",
+      "archived_sha256": "bd3c4290c785fdd813f7d1201ccb5e490e4580c65ce58fe41539285622718dd7",
+      "bytes": 1919,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/controller/VppEditController.java",
+      "original_sha256": "216491936d78de21d2dd606c61efb32ce9454fa168129f9b0492adb71f6e270d",
+      "archived_sha256": "216491936d78de21d2dd606c61efb32ce9454fa168129f9b0492adb71f6e270d",
+      "bytes": 4605,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/BangChamCongDAO.java",
+      "original_sha256": "98dcfd8f1906a98a5e46ac6b0aa85635f3e4eaf841c4339615c04d60af464b5a",
+      "archived_sha256": "98dcfd8f1906a98a5e46ac6b0aa85635f3e4eaf841c4339615c04d60af464b5a",
+      "bytes": 10693,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/CaLamViecDAO.java",
+      "original_sha256": "1ea10603534c4871dabbedace260a56f41cb196fb7c9a5309134fd2468353a7f",
+      "archived_sha256": "1ea10603534c4871dabbedace260a56f41cb196fb7c9a5309134fd2468353a7f",
+      "bytes": 3438,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/ChiTietHoaDonDAO.java",
+      "original_sha256": "d9bf08e4bb454cd40769e1eaf60f30bf58c6e5db9480234713effde1f5efd377",
+      "archived_sha256": "d9bf08e4bb454cd40769e1eaf60f30bf58c6e5db9480234713effde1f5efd377",
+      "bytes": 2928,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/ChiTietHoaDonVPPDAO.java",
+      "original_sha256": "6d26ee5382f92600fbe977f511d5d539ae454240a76222168a11f0cc880a278b",
+      "archived_sha256": "6d26ee5382f92600fbe977f511d5d539ae454240a76222168a11f0cc880a278b",
+      "bytes": 2905,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/ChiTietNhapKhoDAO.java",
+      "original_sha256": "2eb847d881bbff35f1f86c3f5541efb8d058176d2e966f017b75d7341b143b48",
+      "archived_sha256": "2eb847d881bbff35f1f86c3f5541efb8d058176d2e966f017b75d7341b143b48",
+      "bytes": 1085,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/HoaDonDAO.java",
+      "original_sha256": "76725b6af08105077b1aa68785124b9fc3e157f462a96cd6ff5753893984faba",
+      "archived_sha256": "76725b6af08105077b1aa68785124b9fc3e157f462a96cd6ff5753893984faba",
+      "bytes": 12091,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/HoaDonNhapKhoDAO.java",
+      "original_sha256": "55cd57184f03cfd6d96f02718f888eb6f75cdf216ebd0c2419d0c2742ec8970b",
+      "archived_sha256": "55cd57184f03cfd6d96f02718f888eb6f75cdf216ebd0c2419d0c2742ec8970b",
+      "bytes": 3435,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/KhachHangDAO.java",
+      "original_sha256": "03d36fa0af695dff85fbf3bce48d21e093562df659af42e7bee3b02b0b96fd58",
+      "archived_sha256": "03d36fa0af695dff85fbf3bce48d21e093562df659af42e7bee3b02b0b96fd58",
+      "bytes": 5015,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/LoaiVPPDAO.java",
+      "original_sha256": "ce1a5342e11263e93362a7bcbd9cb6c52e40db0c4e88bbba79774a60f3f4e660",
+      "archived_sha256": "ce1a5342e11263e93362a7bcbd9cb6c52e40db0c4e88bbba79774a60f3f4e660",
+      "bytes": 1877,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/NhanVienDAO.java",
+      "original_sha256": "d5838f7dbdaeb6421f6426d36e8718c8f625c162a9b3c149a03d14a4090eb6da",
+      "archived_sha256": "d5838f7dbdaeb6421f6426d36e8718c8f625c162a9b3c149a03d14a4090eb6da",
+      "bytes": 6017,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/NhaXuatBanDAO.java",
+      "original_sha256": "3972aed01907beb39951a3ecfd6c9a4ad17610be49007d3d10d5b1d3604a4bec",
+      "archived_sha256": "3972aed01907beb39951a3ecfd6c9a4ad17610be49007d3d10d5b1d3604a4bec",
+      "bytes": 3754,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/SachDAO.java",
+      "original_sha256": "30c7b470a786fc824cdf5bc592805258ae5546686f24cc44d6b406c22804bd9f",
+      "archived_sha256": "30c7b470a786fc824cdf5bc592805258ae5546686f24cc44d6b406c22804bd9f",
+      "bytes": 13374,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/SachTacGiaDAO.java",
+      "original_sha256": "c72230562d9fa347c7d0de9de0674d0ef59ef509f367ee5fc1e82d489a302a6c",
+      "archived_sha256": "c72230562d9fa347c7d0de9de0674d0ef59ef509f367ee5fc1e82d489a302a6c",
+      "bytes": 1648,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/SachTheLoaiDAO.java",
+      "original_sha256": "98276bd13847e33784077268c78728e9000f7eaed3733775661151331798c115",
+      "archived_sha256": "98276bd13847e33784077268c78728e9000f7eaed3733775661151331798c115",
+      "bytes": 1664,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/TacGiaDAO.java",
+      "original_sha256": "13de02469629234563c70a0081aa1ba908e9091cfa9114acdb8a63283f1664c5",
+      "archived_sha256": "13de02469629234563c70a0081aa1ba908e9091cfa9114acdb8a63283f1664c5",
+      "bytes": 2750,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/TheLoaiDAO.java",
+      "original_sha256": "33f327007389403ad3b666a0348f55bb5c77478c00c2a84ae45ee4c424cb9d08",
+      "archived_sha256": "33f327007389403ad3b666a0348f55bb5c77478c00c2a84ae45ee4c424cb9d08",
+      "bytes": 4722,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/dao/VppDAO.java",
+      "original_sha256": "75273f9f1f6cb8aa2731a57df0e2248302e26b37ff992f1021d9123a21bd6daa",
+      "archived_sha256": "75273f9f1f6cb8aa2731a57df0e2248302e26b37ff992f1021d9123a21bd6daa",
+      "bytes": 6818,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/AbstractChiTietHoaDon.java",
+      "original_sha256": "0ee9bcc1d1c4d2309a08374ce9bd9c14d85b768a2c47badf4be15cfbb0e71d2f",
+      "archived_sha256": "0ee9bcc1d1c4d2309a08374ce9bd9c14d85b768a2c47badf4be15cfbb0e71d2f",
+      "bytes": 1542,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/BangChamCong.java",
+      "original_sha256": "cbd7ecadb35e4f12723df16d266cafe88f635953c20adf189805228a9658665b",
+      "archived_sha256": "cbd7ecadb35e4f12723df16d266cafe88f635953c20adf189805228a9658665b",
+      "bytes": 1980,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/BookRanking.java",
+      "original_sha256": "160ee8cba57cb35db952c5abcb1ddc2684e8d78e2197af1dad4ccc16115929c0",
+      "archived_sha256": "160ee8cba57cb35db952c5abcb1ddc2684e8d78e2197af1dad4ccc16115929c0",
+      "bytes": 381,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/CaLamViec.java",
+      "original_sha256": "7e1410c9fcc85f7de0b22965707018ce67a1d2a1425acff685c33ff0c1ea63a9",
+      "archived_sha256": "7e1410c9fcc85f7de0b22965707018ce67a1d2a1425acff685c33ff0c1ea63a9",
+      "bytes": 1165,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/ChiTietHoaDon.java",
+      "original_sha256": "6ef0f064f2a80a152cc4a93c2b3a267b13912a718de5305e6d2338f560d9ece9",
+      "archived_sha256": "6ef0f064f2a80a152cc4a93c2b3a267b13912a718de5305e6d2338f560d9ece9",
+      "bytes": 380,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/ChiTietHoaDonVPP.java",
+      "original_sha256": "9d23a44e36c5249d8aa9d735ec628a400273738ec4313176cd684395a1ff226e",
+      "archived_sha256": "9d23a44e36c5249d8aa9d735ec628a400273738ec4313176cd684395a1ff226e",
+      "bytes": 383,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/ChiTietNhapKho.java",
+      "original_sha256": "840a2f29de9ec82de73c2579f82614955fd0446f0906618a38c7b27359831a09",
+      "archived_sha256": "840a2f29de9ec82de73c2579f82614955fd0446f0906618a38c7b27359831a09",
+      "bytes": 930,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/GioHang.java",
+      "original_sha256": "2e70a05a8d895c83432b2c6be5e378fcb5ce67a23877a9a37cb9019992bf46a4",
+      "archived_sha256": "2e70a05a8d895c83432b2c6be5e378fcb5ce67a23877a9a37cb9019992bf46a4",
+      "bytes": 6160,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/HoaDon.java",
+      "original_sha256": "c12a0d78c0159d21b790a7209b149e5a2f4e4cce3ccfdc7e662cceca50a80e72",
+      "archived_sha256": "c12a0d78c0159d21b790a7209b149e5a2f4e4cce3ccfdc7e662cceca50a80e72",
+      "bytes": 1505,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/HoaDonNhapKho.java",
+      "original_sha256": "fef1deba4ed2afa8568b17e61f485cbb3502f26f9b4cb395a8404028c2330f52",
+      "archived_sha256": "fef1deba4ed2afa8568b17e61f485cbb3502f26f9b4cb395a8404028c2330f52",
+      "bytes": 976,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/KhachHang.java",
+      "original_sha256": "02dfca7867f37135fa71e0b4f7b4790592a84d1ac4fea0837a6231883c4d2253",
+      "archived_sha256": "02dfca7867f37135fa71e0b4f7b4790592a84d1ac4fea0837a6231883c4d2253",
+      "bytes": 1499,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/LoaiVPP.java",
+      "original_sha256": "56a5b3f31d4c753380ea6fdfbfc3086406b7ba8fe0d2f92f4f480c07bec74c44",
+      "archived_sha256": "56a5b3f31d4c753380ea6fdfbfc3086406b7ba8fe0d2f92f4f480c07bec74c44",
+      "bytes": 729,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/NhanVien.java",
+      "original_sha256": "cd02dd5f12b45de7ba090d244385631f2d5bc2f7c26d21eec8a60db17aba1dd0",
+      "archived_sha256": "cd02dd5f12b45de7ba090d244385631f2d5bc2f7c26d21eec8a60db17aba1dd0",
+      "bytes": 2390,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/NhaXuatBan.java",
+      "original_sha256": "4cab53b5d79e7ac003ae5245a7a84eea52223a36f71e465b728bf7f4bee978c9",
+      "archived_sha256": "4cab53b5d79e7ac003ae5245a7a84eea52223a36f71e465b728bf7f4bee978c9",
+      "bytes": 882,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/Sach.java",
+      "original_sha256": "82287b58bd737c96cca6f62e9996a4e515665ba506eb3273edf1e640437697c9",
+      "archived_sha256": "82287b58bd737c96cca6f62e9996a4e515665ba506eb3273edf1e640437697c9",
+      "bytes": 2390,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/SachTacGia.java",
+      "original_sha256": "3b8bb7788c7b66836f0a905f8ce2f1c082ec8d0ec2bfbe01743f784647259649",
+      "archived_sha256": "3b8bb7788c7b66836f0a905f8ce2f1c082ec8d0ec2bfbe01743f784647259649",
+      "bytes": 450,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/SachTheLoai.java",
+      "original_sha256": "c88ce433ff147a507d629f96b8deb4d30f9228b7ec90ae22fd0b550073154493",
+      "archived_sha256": "c88ce433ff147a507d629f96b8deb4d30f9228b7ec90ae22fd0b550073154493",
+      "bytes": 426,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/TacGia.java",
+      "original_sha256": "a70d2858ae9399197806c7e8d87cc193845f61f31e3d0118c0135d1c9cc2e4ae",
+      "archived_sha256": "a70d2858ae9399197806c7e8d87cc193845f61f31e3d0118c0135d1c9cc2e4ae",
+      "bytes": 647,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/TheLoai.java",
+      "original_sha256": "949765ff402a3d6850fd106662e736391ae31babeb474da94c205c23abe29995",
+      "archived_sha256": "949765ff402a3d6850fd106662e736391ae31babeb474da94c205c23abe29995",
+      "bytes": 439,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/ThongSoBaoCao.java",
+      "original_sha256": "2a17635095027a03fda7d767635076ac53260e2990b5cf2a74e348756bd6f9a0",
+      "archived_sha256": "2a17635095027a03fda7d767635076ac53260e2990b5cf2a74e348756bd6f9a0",
+      "bytes": 627,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/ThongSoNgay.java",
+      "original_sha256": "585ab5f641e3e8e92f985c7dd3dae2468bd9573e6328bca5a037a7736a5369b6",
+      "archived_sha256": "585ab5f641e3e8e92f985c7dd3dae2468bd9573e6328bca5a037a7736a5369b6",
+      "bytes": 395,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/ThongSoTheLoai.java",
+      "original_sha256": "79fac6389c183aec9f4d236d99644884c397b9afc1a9dd24fc06d8e7b9defe9f",
+      "archived_sha256": "79fac6389c183aec9f4d236d99644884c397b9afc1a9dd24fc06d8e7b9defe9f",
+      "bytes": 405,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/model/VanPhongPham.java",
+      "original_sha256": "8bf1223ea132769ea28f58aba18dd5c01f1fb4ca90e563780d89996596b7f69e",
+      "archived_sha256": "8bf1223ea132769ea28f58aba18dd5c01f1fb4ca90e563780d89996596b7f69e",
+      "bytes": 2090,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/AlertUtil.java",
+      "original_sha256": "ccf473922791f2a83c8b39f3e1f71cf4e468189ba3f726cc23e0294142aebc6f",
+      "archived_sha256": "ccf473922791f2a83c8b39f3e1f71cf4e468189ba3f726cc23e0294142aebc6f",
+      "bytes": 1463,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/AuthManager.java",
+      "original_sha256": "689ed7338d409ed188b00516defb5f014cdd98930e16348cbee59aa4dd55af10",
+      "archived_sha256": "689ed7338d409ed188b00516defb5f014cdd98930e16348cbee59aa4dd55af10",
+      "bytes": 1012,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/ChartUtil.java",
+      "original_sha256": "ab0fa1eb975ad57884df2b18a9d46d5d3955abd00cf1ea9cf38475a514826e9d",
+      "archived_sha256": "ab0fa1eb975ad57884df2b18a9d46d5d3955abd00cf1ea9cf38475a514826e9d",
+      "bytes": 425,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/DatabaseManager.java",
+      "original_sha256": "9d97944d2ea07078163a4ae584ce2e4e90aaa28d2ee7ef46c485219dd65d6624",
+      "archived_sha256": "3ee284c02a864ca9f66176e7649ed42f821bcff275e8f7dd0f8588105048feae",
+      "bytes": 1128,
+      "transformations": [
+        "Literal credential replaced with environment lookup"
+      ]
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/ImageHelper.java",
+      "original_sha256": "6cd859eac05298aa4313d4d1f44ea1fb6b38c5b632b7c05ab0c2b9e1a32644e7",
+      "archived_sha256": "6cd859eac05298aa4313d4d1f44ea1fb6b38c5b632b7c05ab0c2b9e1a32644e7",
+      "bytes": 945,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/PasswordUtil.java",
+      "original_sha256": "13530a2b32d4e25e9be39368a9a32b648578ba71bd2687930c26009c462f95c5",
+      "archived_sha256": "13530a2b32d4e25e9be39368a9a32b648578ba71bd2687930c26009c462f95c5",
+      "bytes": 363,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/java/com/bookstore/util/StageManager.java",
+      "original_sha256": "b7892d0f7ec51134f6d4a28c0edd4cc978b5e960dede277696ee588c12e383c1",
+      "archived_sha256": "b7892d0f7ec51134f6d4a28c0edd4cc978b5e960dede277696ee588c12e383c1",
+      "bytes": 1239,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/BangChamCongView.fxml",
+      "original_sha256": "c057ad84df7a5c4c5d3297b5d6b180231ac6f4c764756b3d880ccd49ed54d06d",
+      "archived_sha256": "c057ad84df7a5c4c5d3297b5d6b180231ac6f4c764756b3d880ccd49ed54d06d",
+      "bytes": 1882,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/BanHangView.fxml",
+      "original_sha256": "ddb81fc6a09471bd351dd6601e52e00e15dc2c40667acd82287e91bcdf6c6ff3",
+      "archived_sha256": "ddb81fc6a09471bd351dd6601e52e00e15dc2c40667acd82287e91bcdf6c6ff3",
+      "bytes": 3336,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/BaoCaoView.fxml",
+      "original_sha256": "c0aab8a99a2c101d5b20434179ce49a8a84f8119012c0ea97316b11f56c1126a",
+      "archived_sha256": "c0aab8a99a2c101d5b20434179ce49a8a84f8119012c0ea97316b11f56c1126a",
+      "bytes": 3646,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/BookEditView.fxml",
+      "original_sha256": "dc5d3182ded9330bcfc2f45ad8330fadeac4b03b301f84397d3c67ca59033f82",
+      "archived_sha256": "dc5d3182ded9330bcfc2f45ad8330fadeac4b03b301f84397d3c67ca59033f82",
+      "bytes": 3617,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/CuaSoThanhToanView.fxml",
+      "original_sha256": "bb25186e8f57d2be526ded5c710c00bd6bb0a119047653a1792c39a33b3002c5",
+      "archived_sha256": "bb25186e8f57d2be526ded5c710c00bd6bb0a119047653a1792c39a33b3002c5",
+      "bytes": 3431,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/DangNhapView.fxml",
+      "original_sha256": "4fe9376d95a2b9a5d266a308ab6c634e0d7c37712121e5b14b581c69dec58eb2",
+      "archived_sha256": "4fe9376d95a2b9a5d266a308ab6c634e0d7c37712121e5b14b581c69dec58eb2",
+      "bytes": 1701,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/HoaDonNhapKhoView.fxml",
+      "original_sha256": "ba046fb9ea4c135695ee570e6d8d713d5f522c46d4acfe23ed11f4872c3b8203",
+      "archived_sha256": "ba046fb9ea4c135695ee570e6d8d713d5f522c46d4acfe23ed11f4872c3b8203",
+      "bytes": 1560,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/HoaDonView.fxml",
+      "original_sha256": "35a5c8886fa5c1e572805344baef67c5e1243a74071a54a28d35a04beaeffc62",
+      "archived_sha256": "35a5c8886fa5c1e572805344baef67c5e1243a74071a54a28d35a04beaeffc62",
+      "bytes": 1460,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/KhachHangEditView.fxml",
+      "original_sha256": "2713eff215c5318a6a171b4988fb4610ec460f97dce783360a7f1673edfeffe6",
+      "archived_sha256": "2713eff215c5318a6a171b4988fb4610ec460f97dce783360a7f1673edfeffe6",
+      "bytes": 2485,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/KhachHangView.fxml",
+      "original_sha256": "b2cb5f3175413c4f9075358df07d0cf83b2d6793548ad96fd57e1127d23b6ca7",
+      "archived_sha256": "b2cb5f3175413c4f9075358df07d0cf83b2d6793548ad96fd57e1127d23b6ca7",
+      "bytes": 1546,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/ManHinhChinhView.fxml",
+      "original_sha256": "d63a4ec1580b56285c99d9b60d28842e856293e209cb51c0270a61d94946e8e0",
+      "archived_sha256": "d63a4ec1580b56285c99d9b60d28842e856293e209cb51c0270a61d94946e8e0",
+      "bytes": 4526,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/NhanVienView.fxml",
+      "original_sha256": "8f6b7872e23cc255f7105ac24e8d28011852a62a847866f133542b68e340fbf6",
+      "archived_sha256": "8f6b7872e23cc255f7105ac24e8d28011852a62a847866f133542b68e340fbf6",
+      "bytes": 1879,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/SachView.fxml",
+      "original_sha256": "af54d120dedd18178db3a6150f1f03b008fd3a79c416029fc4af4d383cbb4a12",
+      "archived_sha256": "af54d120dedd18178db3a6150f1f03b008fd3a79c416029fc4af4d383cbb4a12",
+      "bytes": 3552,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/SanPhamView.fxml",
+      "original_sha256": "f9a11db4f04bef59333575d7bf44359361c4789fc80b22a4446569aaab541cb8",
+      "archived_sha256": "f9a11db4f04bef59333575d7bf44359361c4789fc80b22a4446569aaab541cb8",
+      "bytes": 2889,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/styles.css",
+      "original_sha256": "bdec727480e2a7860dca389cc0b385f8c6b66f9cd1619dcfdab0ed7d8d0b8a11",
+      "archived_sha256": "bdec727480e2a7860dca389cc0b385f8c6b66f9cd1619dcfdab0ed7d8d0b8a11",
+      "bytes": 9947,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/ThemNhanVienView.fxml",
+      "original_sha256": "de6a7e2c99eb34c159b941a277d5722089b299b3f995954f1fccbb6624cecfba",
+      "archived_sha256": "de6a7e2c99eb34c159b941a277d5722089b299b3f995954f1fccbb6624cecfba",
+      "bytes": 2549,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/ThemSanPhamView.fxml",
+      "original_sha256": "78a734ea66fec3f9753dc0967ed8868dd945643750ffed4828a295c18a4f7587",
+      "archived_sha256": "78a734ea66fec3f9753dc0967ed8868dd945643750ffed4828a295c18a4f7587",
+      "bytes": 6340,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/TrangChuView.fxml",
+      "original_sha256": "ae0bc4cfe4d6dc227d4087b8afde1503e0eecc62239a2659e9cb2d090df012c0",
+      "archived_sha256": "ae0bc4cfe4d6dc227d4087b8afde1503e0eecc62239a2659e9cb2d090df012c0",
+      "bytes": 1775,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/VppEditView.fxml",
+      "original_sha256": "9db0cc8ab96e88425012de4d7a1566adc0859654048c83379723a0b6c728dd4f",
+      "archived_sha256": "9db0cc8ab96e88425012de4d7a1566adc0859654048c83379723a0b6c728dd4f",
+      "bytes": 2972,
+      "transformations": []
+    },
+    {
+      "project": "P025",
+      "file": "bookstore-management-system/src/main/resources/com/bookstore/view/VppView.fxml",
+      "original_sha256": "6686e6326074ba1d94b08e6929b36492931fca9be9f53724e2fb17cdcaf232b3",
+      "archived_sha256": "6686e6326074ba1d94b08e6929b36492931fca9be9f53724e2fb17cdcaf232b3",
+      "bytes": 2744,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/.gitignore",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "archived_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/modelUML.puml",
+      "original_sha256": "8270b98e57bb5da48564c42eda29d26fc66ba89e535c5fea612ace702a24481d",
+      "archived_sha256": "8270b98e57bb5da48564c42eda29d26fc66ba89e535c5fea612ace702a24481d",
+      "bytes": 6005,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/pom.xml",
+      "original_sha256": "d2c387a1aae94090dbf03881891a4180d1eb4811892c8e4a2a0a5292eb6ffd05",
+      "archived_sha256": "d2c387a1aae94090dbf03881891a4180d1eb4811892c8e4a2a0a5292eb6ffd05",
+      "bytes": 2787,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/UML test.puml",
+      "original_sha256": "d7d1e090d9f4bd84bbce84ad90c0dd7d1f661fdfcfe6c1b09d1a5c1b8a4ee794",
+      "archived_sha256": "d7d1e090d9f4bd84bbce84ad90c0dd7d1f661fdfcfe6c1b09d1a5c1b8a4ee794",
+      "bytes": 5447,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/module-info.java",
+      "original_sha256": "01736141c66a1263b7753ddb6d1e494f9d627cb22bc1a5fae36fc5c74e43fce0",
+      "archived_sha256": "01736141c66a1263b7753ddb6d1e494f9d627cb22bc1a5fae36fc5c74e43fce0",
+      "bytes": 576,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/application/Main.java",
+      "original_sha256": "0e552b795913517ce3a85369c3b1c0cc6393bd301bc927239df8862f7d0acdff",
+      "archived_sha256": "0e552b795913517ce3a85369c3b1c0cc6393bd301bc927239df8862f7d0acdff",
+      "bytes": 1299,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/BanHangController.java",
+      "original_sha256": "c4dbefe0a168be7b77b129d0a4cd8c0063f8c7f95392f86c4f65dd2e797611ca",
+      "archived_sha256": "c4dbefe0a168be7b77b129d0a4cd8c0063f8c7f95392f86c4f65dd2e797611ca",
+      "bytes": 7796,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/BaoCaoController.java",
+      "original_sha256": "f2d8d0e0c2ab927d9868a62ca814e996924c21ec6986af467e6bb766460aaa3b",
+      "archived_sha256": "f2d8d0e0c2ab927d9868a62ca814e996924c21ec6986af467e6bb766460aaa3b",
+      "bytes": 1035,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/ChiTietSachController.java",
+      "original_sha256": "b7bfade6bedfdd07360bbddb49c37bac20eee06b781d41136c8b5f93834c9f60",
+      "archived_sha256": "b7bfade6bedfdd07360bbddb49c37bac20eee06b781d41136c8b5f93834c9f60",
+      "bytes": 1076,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/KhachHangController.java",
+      "original_sha256": "2f6d24a7e66e231c90c3d029b8e0844ce5dcd020c2e17fe5a4d25eba9d3ba93d",
+      "archived_sha256": "2f6d24a7e66e231c90c3d029b8e0844ce5dcd020c2e17fe5a4d25eba9d3ba93d",
+      "bytes": 1543,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/LoginController.java",
+      "original_sha256": "69a3ec6f718b56632311345097021cfafede0f40e90b09773615e9dd30e3a65e",
+      "archived_sha256": "69a3ec6f718b56632311345097021cfafede0f40e90b09773615e9dd30e3a65e",
+      "bytes": 2757,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/MainViewController.java",
+      "original_sha256": "37fc9bda84a22fa4325c0d50ea7562c043c472d2888f5bd3399863f5b62f062d",
+      "archived_sha256": "37fc9bda84a22fa4325c0d50ea7562c043c472d2888f5bd3399863f5b62f062d",
+      "bytes": 5621,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/QuanLyHoaDonController.java",
+      "original_sha256": "209d8b13c560ece8f0f2439818bfbfbff12559eb341e4e72c6b71d53bd08bc59",
+      "archived_sha256": "209d8b13c560ece8f0f2439818bfbfbff12559eb341e4e72c6b71d53bd08bc59",
+      "bytes": 1487,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/QuanLyKhachHangController.java",
+      "original_sha256": "5cabea564ed0d50369b1d43936c549f1d1b9b23874269f15b102956fb84ff0d2",
+      "archived_sha256": "5cabea564ed0d50369b1d43936c549f1d1b9b23874269f15b102956fb84ff0d2",
+      "bytes": 7451,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/QuanLyNhanVienController.java",
+      "original_sha256": "83fcdcb4e3f79f2651e6815ad0f7e6bbac9303ba9c0e7b5700760e00edda0078",
+      "archived_sha256": "83fcdcb4e3f79f2651e6815ad0f7e6bbac9303ba9c0e7b5700760e00edda0078",
+      "bytes": 8900,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/QuanLySachController.java",
+      "original_sha256": "4305671a8caaec0b79079d9fce6d84445ed225a1577e61db526a728cf6894a3a",
+      "archived_sha256": "4305671a8caaec0b79079d9fce6d84445ed225a1577e61db526a728cf6894a3a",
+      "bytes": 12640,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/SachCardController.java",
+      "original_sha256": "8331fc63760e9a6cc7b7acbce8f60bc4ba46495fb380770ce3afaf701c7314b7",
+      "archived_sha256": "8331fc63760e9a6cc7b7acbce8f60bc4ba46495fb380770ce3afaf701c7314b7",
+      "bytes": 1867,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/controller/SachItemController.java",
+      "original_sha256": "893d909c1cfaa7c3ec8af5c1f8f8bc4e89f2fa4424ff0e3547cdc58be99bd58f",
+      "archived_sha256": "893d909c1cfaa7c3ec8af5c1f8f8bc4e89f2fa4424ff0e3547cdc58be99bd58f",
+      "bytes": 789,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/dao/BangChamCongDAO.java",
+      "original_sha256": "12072e50e67ab84c0fcba350c2d17b5e399fdd6b37f65e4740ac16decc50fccb",
+      "archived_sha256": "12072e50e67ab84c0fcba350c2d17b5e399fdd6b37f65e4740ac16decc50fccb",
+      "bytes": 920,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/dao/BookMetadataDAO.java",
+      "original_sha256": "e9f1f1e2be32d7bdab335a8b7085cf52c3ca5593592019b9d9d5a5d3362b902c",
+      "archived_sha256": "e9f1f1e2be32d7bdab335a8b7085cf52c3ca5593592019b9d9d5a5d3362b902c",
+      "bytes": 2527,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/dao/HoaDonDAO.java",
+      "original_sha256": "fe0469fdfc8a21635334da905f9ab504d8726c5bfca5eee56a6677ce320c6578",
+      "archived_sha256": "fe0469fdfc8a21635334da905f9ab504d8726c5bfca5eee56a6677ce320c6578",
+      "bytes": 4774,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/dao/KhachHangDAO.java",
+      "original_sha256": "48692a87391df69125a8f9c29cd6dd077bed47373e6e6b74536aaa2d5c485cf1",
+      "archived_sha256": "48692a87391df69125a8f9c29cd6dd077bed47373e6e6b74536aaa2d5c485cf1",
+      "bytes": 2927,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/dao/NhanVienDAO.java",
+      "original_sha256": "fd82f2ffc064db62a64594d6b1fcf0ac7faa9950b43343317a6666dc1d1147ae",
+      "archived_sha256": "fd82f2ffc064db62a64594d6b1fcf0ac7faa9950b43343317a6666dc1d1147ae",
+      "bytes": 6063,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/dao/SachDAO.java",
+      "original_sha256": "44a09409c2ed4a7261d8709893b6bc7a9dde98c0dded66a25696557a3cf758cd",
+      "archived_sha256": "44a09409c2ed4a7261d8709893b6bc7a9dde98c0dded66a25696557a3cf758cd",
+      "bytes": 8918,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/model/BookMetadata.java",
+      "original_sha256": "1fd110b6615ab84eb626b55c8b081707245f7bc57b08a371ced718ffade3e6d9",
+      "archived_sha256": "1fd110b6615ab84eb626b55c8b081707245f7bc57b08a371ced718ffade3e6d9",
+      "bytes": 2503,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/model/InvoiceModels.java",
+      "original_sha256": "b85f194aca3f9fc2beb6c0d833f81aba9b46483e66b61d2109e640603293c5dc",
+      "archived_sha256": "b85f194aca3f9fc2beb6c0d833f81aba9b46483e66b61d2109e640603293c5dc",
+      "bytes": 4253,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/model/KhachHang.java",
+      "original_sha256": "7867d84b30af7d8a0edf5fb6bea4b99790773e078fd9ae45d7523fec8080560c",
+      "archived_sha256": "7867d84b30af7d8a0edf5fb6bea4b99790773e078fd9ae45d7523fec8080560c",
+      "bytes": 1647,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/model/NhanVien.java",
+      "original_sha256": "5ea1f4a663888966cef6e43edbd11c1e95720c63eaffc3ea1e08b55052a254d5",
+      "archived_sha256": "5ea1f4a663888966cef6e43edbd11c1e95720c63eaffc3ea1e08b55052a254d5",
+      "bytes": 3461,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/model/Sach.java",
+      "original_sha256": "cabe2f1293acd02e616e9113c0b10f502f9a3854ff02b4fb107954cf740409ba",
+      "archived_sha256": "cabe2f1293acd02e616e9113c0b10f502f9a3854ff02b4fb107954cf740409ba",
+      "bytes": 4303,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/com/nhasach/util/NhaSachUtils.java",
+      "original_sha256": "6d702ec6bbb7f10627ecc5865f8ea3069c0bb08235b6f8f6454d53b25102cd5e",
+      "archived_sha256": "1de28045292d3603946300780dfecc54ad2ffc7bccdf842315bf8eb436e21493",
+      "bytes": 3992,
+      "transformations": [
+        "Literal credential replaced with environment lookup"
+      ]
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/java/quanlynhasach/Mainapp.java",
+      "original_sha256": "a78d00c67e060b42facd0d41106a5b4c32cd3b2a2c51fcd80868ee2f5b6288ca",
+      "archived_sha256": "ca9eadea3bc99f21ff375c461c4a68fb318a113c1d3cbca5891ce483eff28213",
+      "bytes": 1770,
+      "transformations": [
+        "Literal credential replaced with environment lookup"
+      ]
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/BanHangView.fxml",
+      "original_sha256": "586f0ca45c5cd2dfe30a8bf36c5d24d34feb46ac0e2ff60c0f1302a1110df41b",
+      "archived_sha256": "586f0ca45c5cd2dfe30a8bf36c5d24d34feb46ac0e2ff60c0f1302a1110df41b",
+      "bytes": 3690,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/BaoCaoView.fxml",
+      "original_sha256": "543ebeb7c6f9030e0c8c3ce2269a369f17c41cc33515af65c6cd285918870ea3",
+      "archived_sha256": "543ebeb7c6f9030e0c8c3ce2269a369f17c41cc33515af65c6cd285918870ea3",
+      "bytes": 895,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/ChiTietSach.fxml",
+      "original_sha256": "6c6d77e699aaa130806c4eda401c81b1692711cb409d9b61bd6ce0e0f47d4246",
+      "archived_sha256": "6c6d77e699aaa130806c4eda401c81b1692711cb409d9b61bd6ce0e0f47d4246",
+      "bytes": 820,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/KhachHangView.fxml",
+      "original_sha256": "3298657863f06cd7346ba20471b2b4ef2df8f5526160c4d9124a184c0c96d9a6",
+      "archived_sha256": "3298657863f06cd7346ba20471b2b4ef2df8f5526160c4d9124a184c0c96d9a6",
+      "bytes": 2249,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/LoginView.fxml",
+      "original_sha256": "0c2fd63392fc99e9cd97c3b465aac08665c28993a151cb507802b4c27e10c319",
+      "archived_sha256": "0c2fd63392fc99e9cd97c3b465aac08665c28993a151cb507802b4c27e10c319",
+      "bytes": 1320,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/MainView.fxml",
+      "original_sha256": "ea913cd0a6b6e2fd1e87d47a59597a1a15b6a081e29963938a080cca09f458cb",
+      "archived_sha256": "ea913cd0a6b6e2fd1e87d47a59597a1a15b6a081e29963938a080cca09f458cb",
+      "bytes": 2923,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/package-info.java",
+      "original_sha256": "1f4f4bbd4c1568602e2cf37181d4f97086ba7e89b5a8cc8611749f65fe6722a0",
+      "archived_sha256": "1f4f4bbd4c1568602e2cf37181d4f97086ba7e89b5a8cc8611749f65fe6722a0",
+      "bytes": 25,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/QuanLyHoaDonView.fxml",
+      "original_sha256": "e043b4f8521c2daea7f17c0bdd3fb571cc4ae7b6cbd0a1f50916013d0be060cc",
+      "archived_sha256": "e043b4f8521c2daea7f17c0bdd3fb571cc4ae7b6cbd0a1f50916013d0be060cc",
+      "bytes": 1156,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/QuanLyKhachHangView.fxml",
+      "original_sha256": "eebda13e9e5d00fd3f0954504c36cb0260edc0619586a5df3c96405195164646",
+      "archived_sha256": "eebda13e9e5d00fd3f0954504c36cb0260edc0619586a5df3c96405195164646",
+      "bytes": 3625,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/QuanLyNhanVienView.fxml",
+      "original_sha256": "3b4c719853bac81b26c9a5cd4e5ba3a953f370ee85341bd96804a35a2dca3b27",
+      "archived_sha256": "3b4c719853bac81b26c9a5cd4e5ba3a953f370ee85341bd96804a35a2dca3b27",
+      "bytes": 4241,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/QuanLySachView.fxml",
+      "original_sha256": "70c77e22bf613d876d95657aef9319214decdebfcb97abb5098c644957d5c2cb",
+      "archived_sha256": "70c77e22bf613d876d95657aef9319214decdebfcb97abb5098c644957d5c2cb",
+      "bytes": 4984,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/SachCard.fxml",
+      "original_sha256": "e5f2e76c3ce06224588ab4578030d98306695a9c42573a694ea7ee2cc5158631",
+      "archived_sha256": "e5f2e76c3ce06224588ab4578030d98306695a9c42573a694ea7ee2cc5158631",
+      "bytes": 976,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/SachItem.fxml",
+      "original_sha256": "2dbdfb51c627667cbb4d528182de0ba310727f75e7c3622d3948ba408b0460ce",
+      "archived_sha256": "2dbdfb51c627667cbb4d528182de0ba310727f75e7c3622d3948ba408b0460ce",
+      "bytes": 668,
+      "transformations": []
+    },
+    {
+      "project": "P026",
+      "file": "javafx-quan-ly-sach/src/main/resources/com/nhasach/view/style.css",
+      "original_sha256": "b7419df9960192772ffdaa549c03b2acb64f2fd4b7a697c1cd06d5f77fade88e",
+      "archived_sha256": "b7419df9960192772ffdaa549c03b2acb64f2fd4b7a697c1cd06d5f77fade88e",
+      "bytes": 6424,
+      "transformations": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.nhasach.controller.QuanLyHoaDonController"
+            prefWidth="800" prefHeight="600">
+    <VBox>
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0"/>
+    </padding>
+
+        <Label text="QUẢN LÝ HÓA ĐƠN" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+        <TableView fx:id="tablehoaDon" prefHeight="550">
+            <columns>
+                <TableColumn fx:id="MaHDCol" text="Mã HĐ" prefWidth="100"/>
+                <TableColumn fx:id="NgayLapCol" text="Ngày Lập" prefWidth="200"/>
+                <TableColumn fx:id="TongTienCol" text="Tổng Tiền" prefWidth="150"/>
+                <TableColumn fx:id="MaNVCol" text="Mã NV" prefWidth="100"/>
+                <TableColumn fx:id="MaKHCol" text="Tên Nhân Viên" prefWidth="200"/>
+                
+            </columns>
+	</TableView>
+    </VBox>
+</AnchorPane>
+

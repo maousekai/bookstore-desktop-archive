@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nhasach.controller.QuanLyNhanVienController">
+    <center>
+        <TableView fx:id="nhanVienTableView">
+            <columns>
+                <TableColumn fx:id="maNVCol" text="Mã NV" />
+                <TableColumn fx:id="TenNVCol" prefWidth="150.0" text="Họ Tên" />
+                <TableColumn fx:id="taiKhoanCol" prefWidth="120.0" text="Tài khoản" />
+                <TableColumn fx:id="quyenCol" text="Quyền" />
+                <TableColumn fx:id="dienThoaiCol" prefWidth="120.0" text="Điện thoại" />
+                <TableColumn fx:id="viTriCol" prefWidth="120.0" text="Vị Trí" />
+                <TableColumn fx:id="luongCoBanCol" prefWidth="120.0" text="Lương cơ bản" />
+            </columns>
+        </TableView>
+    </center>
+    <right>
+        <VBox prefWidth="400.0" spacing="10.0">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10" />
+    </padding>
+
+            <Label text="Thông tin chi tiết Nhân viên">
+                <font><Font name="System Bold" size="16.0" /></font>
+            </Label>
+            <GridPane hgap="10.0" vgap="8.0">
+                <Label text="Mã NV:" />
+                <TextField fx:id="maNVField" GridPane.columnIndex="1" />
+                <Label text="Họ tên:" GridPane.rowIndex="1" />
+                <TextField fx:id="TenNVField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label text="Tài khoản:" GridPane.rowIndex="2" />
+                <TextField fx:id="taiKhoanField" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label text="Mật khẩu:" GridPane.rowIndex="3" />
+                <PasswordField fx:id="matKhauField" promptText="Để trống nếu không đổi" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Label text="Quyền:" GridPane.rowIndex="4" />
+                <ComboBox fx:id="quyenComboBox" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label text="Ngày sinh:" GridPane.rowIndex="5" />
+                <DatePicker fx:id="ngaySinhPicker" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                <Label text="Điện thoại:" GridPane.rowIndex="6" />
+                <TextField fx:id="dienThoaiField" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                <Label text="Địa chỉ:" GridPane.rowIndex="7" />
+                <TextField fx:id="diaChiField" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                <Label text="Vị trí:" GridPane.rowIndex="8" />
+                <TextField fx:id="viTriField" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                 <Label text="Lương cơ bản:" GridPane.rowIndex="9" />
+                <TextField fx:id="luongCoBanField" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                 <Label text="Ngày vào làm:" GridPane.rowIndex="10" />
+                <DatePicker fx:id="ngayVaoLamPicker" prefWidth="250.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            </GridPane>
+            <HBox alignment="CENTER" spacing="10.0">
+                <Button onAction="#lamMoiAction" text="Làm mới" />
+                <Button onAction="#themAction" text="Thêm" />
+                <Button onAction="#suaAction" text="Lưu Sửa" />
+                <Button onAction="#xoaAction" style="-fx-background-color: #e74c3c;" text="Xóa" textFill="WHITE" />
+            </HBox>
+        </VBox>
+    </right>
+</BorderPane>
+

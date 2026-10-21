@@ -1,0 +1,216 @@
+/* ===========================================
+   GLOBAL STYLES - Light Mode & Clean Layout
+   ===========================================
+   - Root: Light bg (#F8F9FA), sans-serif font (clean like Notion).
+   - Pastel accents: #A7C7E7 (blue for primary), #FADADD (pink for alerts).
+   - Shadows: Material 3 style (subtle dropshadow for elevation).
+   - Responsive: Use -fx-pref-width bindings in FXML for sidebar collapse.
+*/
+
+.root {
+    -fx-font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #F8F9FA; /* Light gray bg for clean dashboard */
+    -fx-padding: 0;
+}
+
+.label {
+    -fx-text-fill: #333333; /* Dark gray text for readability */
+}
+
+/* ===========================================
+   LAYOUT: Sidebar + Top Bar (Tailwind Admin Style)
+   ===========================================
+   - Sidebar: Collapsible nav (left, transparent bg, hover effects).
+   - Top Bar: Fixed top with search/user (Material 3 elevation).
+*/
+.sidebar-title { -fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #4A90E2; } .user-greeting { -fx-font-weight: bold; } .icon-btn { -fx-background-color: transparent; }
+.sidebar {
+    -fx-background-color: #F8F9FA; /* Matches root for seamless */
+    -fx-pref-width: 220px;
+    -fx-min-width: 220px;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 2, 0); /* Subtle shadow */
+}
+
+.sidebar-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4A90E2; /* Blue accent for nav */
+    -fx-padding: 12px 16px;
+    -fx-alignment: center-left;
+    -fx-border-radius: 6px;
+    -fx-font-weight: bold;
+}
+
+.sidebar-btn:hover {
+    -fx-background-color: #A7C7E7; /* Pastel blue hover */
+    -fx-text-fill: white;
+}
+
+.top-bar {
+    -fx-background-color: white;
+    -fx-padding: 12px 20px;
+    -fx-spacing: 20px;
+    -fx-alignment: center-left;
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.1), 1, 0, 0, 1); /* Material 3 top elevation */
+    -fx-pref-height: 60px;
+}
+
+.search-global, .search-box {
+    -fx-background-color: #E9ECEF; /* Light input bg */
+    -fx-border-radius: 20px;
+    -fx-padding: 8px 16px;
+    -fx-border-width: 0;
+    -fx-font-size: 14px;
+}
+
+.search-global:focused, .search-box:focused {
+    -fx-background-color: #D1E7F0; /* Lighter on focus */
+}
+
+/* ===========================================
+   COMPONENTS: Buttons, Cards, Tables (Clean & Pastel)
+   ===========================================
+   - Buttons: Pastel primary (#A7C7E7), rounded, hover darker (Tailwind).
+   - Cards: Elevated white boxes with shadow (Material 3 cards).
+   - Tables: Clean borders, sortable headers, hover rows.
+*/
+
+.pastel-btn {
+    -fx-background-color: #A7C7E7; /* Pastel blue primary */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 6px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 2, 0, 0, 2);
+}
+
+.pastel-btn:hover {
+    -fx-background-color: #5A9BD4; /* Darker blue on hover */
+}
+
+.pastel-btn:pressed {
+    -fx-background-color: #4A90E2; /* Even darker on press */
+}
+
+.stats-cards {
+    -fx-spacing: 20px;
+    -fx-alignment: center-left;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-padding: 20px;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1); /* Material 3 elevation 1 */
+    -fx-pref-width: 150px;
+    -fx-alignment: center;
+    -fx-spacing: 5px;
+}
+
+.card-title {
+    -fx-font-size: 12px;
+    -fx-text-fill: #6C757D; /* Gray subtitle */
+    -fx-font-weight: normal;
+}
+
+.card-value {
+    -fx-font-size: 24px;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+}
+
+.alert-card {
+    -fx-background-color: #FADADD; /* Pastel pink for warnings/low stock */
+    -fx-border-color: #FF6B6B;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+}
+
+.modern-table {
+    -fx-background-color: white;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 1); /* Elevated table */
+    -fx-border-width: 0;
+}
+
+.modern-table .table-view .column-header-background {
+    -fx-background-color: #F8F9FA; /* Light header bg */
+    -fx-border-radius: 8px 8px 0 0;
+}
+
+.modern-table .table-row-cell {
+    -fx-background-color: white;
+}
+
+.modern-table .table-row-cell:hover {
+    -fx-background-color: #F8F9FA; /* Hover row subtle */
+}
+
+.modern-table .table-row-cell:selected {
+    -fx-background-color: #A7C7E7; /* Selected pastel blue */
+    -fx-text-fill: white;
+}
+
+/* Table editable cells (e.g., TextFieldTableCell) */
+.modern-table .text-field {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-padding: 5px;
+}
+
+/* ===========================================
+   UTILITIES: Promo, Icons, Modals (Notion-like Clean)
+   ===========================================
+   - Promo: Bold blue for discounts.
+   - Icons: Assume FontAwesome via CSS (add @font-face if needed).
+   - Modals: Overlay with blur (JavaFX Dialog).
+*/
+
+.promo {
+    -fx-text-fill: #4A90E2; /* Blue accent for promotions */
+    -fx-font-weight: bold;
+    -fx-padding: 10px;
+    -fx-background-color: #E3F2FD; /* Light blue bg */
+    -fx-border-radius: 4px;
+}
+
+.icon {
+    -fx-font-family: "FontAwesome"; /* Add @font-face for icons */
+    -fx-font-size: 16px;
+}
+
+/* Modal overlay (for DialogPane) */
+.dialog-pane .content {
+    -fx-background-color: white;
+    -fx-border-radius: 8px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 10, 0, 0, 2);
+    -fx-padding: 20px;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #A7C7E7; /* Pastel header */
+    -fx-text-fill: white;
+}
+
+/* ===========================================
+   RESPONSIVE & ANIMATIONS (Tailwind-inspired)
+   ===========================================
+   - Hover/transitions: Smooth 0.2s ease.
+   - Small screen: Sidebar min-width 60px (collapse via binding).
+*/
+
+* {
+    -fx-transition: all 0.2s ease; /* Smooth animations like Tailwind */
+}
+
+.sidebar:collapsed {
+    -fx-pref-width: 60px; /* Responsive collapse */
+    -fx-min-width: 60px;
+}
+
+/* Media query-like (use in FXML bindings for actual responsive) */
+@media screen and (max-width: 768px) {
+    .sidebar { -fx-pref-width: 60px; }
+}

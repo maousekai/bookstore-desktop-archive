@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="sachItem"
+            xmlns="http://javafx.com/javafx/21"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.nhasach.controller.SachItemController">
+    <children>
+        <ImageView fx:id="anhSach" fitWidth="150" fitHeight="200" layoutX="10" layoutY="10"/>
+        <Label fx:id="tenSach" layoutX="10" layoutY="220" style="-fx-font-weight:bold;"/>
+        <Label fx:id="giaSach" layoutX="10" layoutY="240" style="-fx-text-fill:red;"/>
+    </children>
+</AnchorPane>

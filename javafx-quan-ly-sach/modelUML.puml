@@ -1,0 +1,241 @@
+@startuml
+class com.nhasach.model.BookMetadata {
+}
+class com.nhasach.model.BookMetadata$NhaXuatBan {
+- String MaNXB
+- String tenNXB
+- String DiaChi
+- String DienThoai
++ String getMaNXB()
++ void setMaNXB(String)
++ String getTenNXB()
++ void setTenNXB(String)
++ String getDiaChi()
++ void setDiaChi(String)
++ String getDienThoai()
++ void setDienThoai(String)
++ String toString()
+}
+
+
+class com.nhasach.model.BookMetadata$TacGia {
+- String maTG
+- String tenTG
++ String getMaTG()
++ void setMaTG(String)
++ String getTenTG()
++ void setTenTG(String)
++ String toString()
+}
+
+
+class com.nhasach.model.BookMetadata$TheLoai {
+- String maTL
+- String tenTL
++ String getMaTL()
++ void setMaTL(String)
++ String getTenTL()
++ void setTenTL(String)
++ String toString()
+}
+
+
+class com.nhasach.model.InvoiceModels {
+}
+class com.nhasach.model.InvoiceModels$HoaDon {
+- StringProperty maHD
+- ObjectProperty<LocalDateTime> ngayLap
+- DoubleProperty tongTien
+- StringProperty maNV
+- StringProperty tenNV
+- StringProperty maKH
++ String getMaHD()
++ void setMaHD(String)
++ StringProperty maHDProperty()
++ LocalDateTime getNgayLap()
++ void setNgayLap(LocalDateTime)
++ ObjectProperty<LocalDateTime> ngayLapProperty()
++ double getTongTien()
++ void setTongTien(double)
++ DoubleProperty tongTienProperty()
++ String getMaNV()
++ void setMaNV(String)
++ StringProperty maNVProperty()
++ String getTenNV()
++ void setTenNV(String)
++ StringProperty tenNVProperty()
++ String getMaKH()
++ void setMaKH(String)
++ StringProperty maKHProperty()
++ StringProperty ngayLapStringProperty()
+}
+
+
+class com.nhasach.model.InvoiceModels$ChiTietHoaDon {
+- StringProperty maSach
+- StringProperty tenSach
+- IntegerProperty soLuong
+- DoubleProperty donGia
+- DoubleProperty thanhTien
++ String getMaSach()
++ void setMaSach(String)
++ StringProperty maSachProperty()
++ String getTenSach()
++ void setTenSach(String)
++ StringProperty tenSachProperty()
++ int getSoLuong()
++ void setSoLuong(int)
++ IntegerProperty soLuongProperty()
++ double getDonGia()
++ void setDonGia(double)
++ DoubleProperty donGiaProperty()
++ double getThanhTien()
++ DoubleProperty thanhTienProperty()
+}
+
+
+class com.nhasach.model.Sach {
+- StringProperty maSach
+- StringProperty tenSach
+- DoubleProperty donGia
+- IntegerProperty soLuong
+- IntegerProperty namXuatBan
+- StringProperty maNXB
+- StringProperty Khuyenmai
+- StringProperty viTriKe
+- StringProperty viTriHang
+- StringProperty viTriNgan
+- StringProperty tacGia
+- StringProperty theLoai
+- StringProperty nhaXuatBan
+- StringProperty moTa
+- StringProperty anh
++ String getMaSach()
++ void setMaSach(String)
++ StringProperty maSachProperty()
++ String getTenSach()
++ void setTenSach(String)
++ StringProperty tenSachProperty()
++ double getDonGia()
++ void setDonGia(double)
++ DoubleProperty donGiaProperty()
++ int getSoLuong()
++ void setSoLuong(int)
++ IntegerProperty soLuongProperty()
++ int getNamXuatBan()
++ void setNamXuatBan(int)
++ IntegerProperty namXuatBanProperty()
++ String getMaNXB()
++ void setMaNXB(String)
++ StringProperty maNXBProperty()
++ String getViTriKe()
++ void setViTriKe(String)
++ StringProperty viTriKeProperty()
++ String getViTriHang()
++ void setViTriHang(String)
++ StringProperty viTriHangProperty()
++ String getViTriNgan()
++ void setViTriNgan(String)
++ StringProperty viTriNganProperty()
++ String getTacGia()
++ void setTacGia(String)
++ StringProperty tacGiaProperty()
++ String getTheLoai()
++ void setTheLoai(String)
++ StringProperty theLoaiProperty()
++ String getNhaXuatBan()
++ void setNhaXuatBan(String)
++ StringProperty nhaXuatBanProperty()
++ String getMoTa()
++ void setMoTa(String)
++ StringProperty moTaProperty()
++ String getAnh()
++ void setAnh(String)
++ StringProperty anhBiaProperty()
++ String getKhuyenmai()
++ void setKhuyenmai(String)
++ StringProperty khuyenmaiProperty()
++ String toString()
+}
+
+
+class com.nhasach.model.NhanVien {
+- StringProperty maNV
+- StringProperty TenNV
+- ObjectProperty<LocalDate> ngaySinh
+- StringProperty diaChi
+- StringProperty dienThoai
+- StringProperty taiKhoan
+- StringProperty matKhau
+- IntegerProperty maQuyen
+- ObjectProperty<LocalDate> ngayVaoLam
+- StringProperty viTri
+- DoubleProperty luongCoBan
++ String getMaNV()
++ void setMaNV(String)
++ StringProperty maNVProperty()
++ String getTenNV()
++ void setTenNV(String)
++ StringProperty TenNVProperty()
++ String getTaiKhoan()
++ void setTaiKhoan(String)
++ StringProperty taiKhoanProperty()
++ String getMatKhau()
++ void setMatKhau(String)
++ StringProperty matKhauProperty()
++ LocalDate getNgaySinh()
++ void setNgaySinh(LocalDate)
++ ObjectProperty<LocalDate> ngaySinhProperty()
++ String getDiaChi()
++ void setDiaChi(String)
++ StringProperty diaChiProperty()
++ String getDienThoai()
++ void setDienThoai(String)
++ StringProperty dienThoaiProperty()
++ int getMaQuyen()
++ void setMaQuyen(int)
++ IntegerProperty maQuyenProperty()
++ LocalDate getNgayVaoLam()
++ void setNgayVaoLam(LocalDate)
++ ObjectProperty<LocalDate> ngayVaoLamProperty()
++ String getViTri()
++ void setViTri(String)
++ StringProperty viTriProperty()
++ double getLuongCoBan()
++ void setLuongCoBan(double)
++ DoubleProperty luongCoBanProperty()
+}
+
+
+class com.nhasach.model.KhachHang {
+- StringProperty maKH
+- StringProperty hoTen
+- StringProperty dienThoai
+- StringProperty email
+- StringProperty diaChi
++ String getMaKH()
++ void setMaKH(String)
++ StringProperty maKHProperty()
++ String getHoTen()
++ void setHoTen(String)
++ StringProperty hoTenProperty()
++ String getDienThoai()
++ void setDienThoai(String)
++ StringProperty dienThoaiProperty()
++ String getEmail()
++ void setEmail(String)
++ StringProperty emailProperty()
++ String getDiaChi()
++ void setDiaChi(String)
++ StringProperty diaChiProperty()
+}
+
+
+
+
+com.nhasach.model.BookMetadata +.. com.nhasach.model.BookMetadata$NhaXuatBan
+com.nhasach.model.BookMetadata +.. com.nhasach.model.BookMetadata$TacGia
+com.nhasach.model.BookMetadata +.. com.nhasach.model.BookMetadata$TheLoai
+com.nhasach.model.InvoiceModels +.. com.nhasach.model.InvoiceModels$HoaDon
+com.nhasach.model.InvoiceModels +.. com.nhasach.model.InvoiceModels$ChiTietHoaDon
+@enduml

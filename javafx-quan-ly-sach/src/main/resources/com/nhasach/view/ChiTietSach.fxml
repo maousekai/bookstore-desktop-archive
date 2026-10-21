@@ -1,0 +1,12 @@
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="com.nhasach.controller.ChiTietSachController"
+            prefWidth="400" prefHeight="500">
+    <children>
+        <ImageView fx:id="imgSach" layoutX="20" layoutY="20" fitWidth="150" fitHeight="200" preserveRatio="true"/>
+        <Label fx:id="lblTenSach" layoutX="190" layoutY="20" style="-fx-font-size:18; -fx-font-weight:bold;"/>
+        <Label fx:id="lblTacGia" layoutX="190" layoutY="60"/>
+        <Label fx:id="lblNhaXB" layoutX="190" layoutY="90"/>
+        <Label fx:id="lblTheLoai" layoutX="190" layoutY="120"/>
+        <Label fx:id="lblGia" layoutX="190" layoutY="150" textFill="#e53935" style="-fx-font-size:16;"/>
+        <Label fx:id="lblMoTa" layoutX="20" layoutY="250" prefWidth="360" wrapText="true"/>
+    </children>
+</AnchorPane>

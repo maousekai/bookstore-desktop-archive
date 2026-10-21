@@ -1,0 +1,204 @@
+@startuml
+class com.nhasach.controller.QuanLySachController {
+- TextField maSachField
+- TextField viTriKeField
+- ComboBox<NhaXuatBan> nxbComboBox
+- ComboBox<TheLoai> theLoaiComboBox
+- ComboBox<TacGia> tacGiaComboBox
+- ImageView anhSachImageView
+- FlowPane flowPaneSach
+- TextField txtTimKiem
+- ObservableList<Sach> sachList
+- SachDAO sachDAO
+- TheLoaiDAO theLoaiDAO
+- TacGiaDAO tacGiaDAO
+- NhaXuatBanDAO nxbDAO
+- File selectedImageFile
+~ void initialize()
+- void loadSachData()
+- void loadSachCards()
+- void showSachDetails(Sach)
+- void loadComboBoxData()
+~ void lamMoiAction(ActionEvent)
+~ void chonAnhAction(ActionEvent)
+~ void themSachAction(ActionEvent)
+~ void xoaSachAction(ActionEvent)
+~ void suaSachAction(ActionEvent)
+- void timKiemAction(ActionEvent)
+- void hienThiDanhSachTimKiem(List<Sach>)
+}
+
+
+class com.nhasach.controller.LoginController {
+- PasswordField txtPassword
+- TextField txtUsername
+- Label lblStatus
+- NhanVienDAO nhanVienDAO
+- BangChamCongDAO chamCongDAO
+~ void loginButtonAction(ActionEvent)
+- void openMainView()
+}
+
+
+class com.nhasach.controller.ChiTietSachController {
+- ImageView imgSach
+- Label lblTenSach
++ void setSach(Sach)
+}
+
+
+class com.nhasach.controller.SachItemController {
+- ImageView anhSach
+- Label tenSach
+- Label giaSach
++ void setData(Sach)
+}
+
+
+class com.nhasach.controller.QuanLyKhachHangController {
+- TableView<KhachHang> khachHangTable
+- TableColumn<KhachHang,String> MaKHCol
+- TableColumn<KhachHang,String> HoTenCol
+- TableColumn<KhachHang,String> DienThoaiCol
+- TableColumn<KhachHang,String> EmailCol
+- TableColumn<KhachHang,String> DiaChiCol
+- TextField txtMaKH
+- Button btnThem
+- KhachHangDAO khachHangDAO
+- ObservableList<KhachHang> list
+- FilteredList<KhachHang> filteredList
++ void initialize()
+- void updateCell(TableColumn.CellEditEvent<KhachHang,String>,String)
+- void loadData()
+- void themAction()
+- void suaAction()
+- void xoaAction()
+- void lamMoiAction(ActionEvent)
+- void clearForm()
+- void showAlert(String)
+- void showInfo(String)
+}
+
+
+class com.nhasach.controller.QuanLyHoaDonController {
+- TableView<HoaDon> tablehoaDon
+- TableColumn<HoaDon,String> MaHDCol
+- TableColumn<HoaDon,String> NgayLapCol
+- TableColumn<HoaDon,Double> TongTienCol
+- TableColumn<HoaDon,String> MaKHCol
+- TableColumn<HoaDon,String> MaNVCol
+- HoaDonDAO hoaDonDAO
++ void initialize()
+- void loadData()
+}
+
+
+class com.nhasach.controller.KhachHangController {
+- TableView<ChiTietHoaDon> gioHangTableKhach
+- TableColumn<ChiTietHoaDon,String> TenSachCol
+- TableColumn<ChiTietHoaDon,Number> soLuongCol
+- TableColumn<ChiTietHoaDon,Number> donGiaCol
+- TableColumn<ChiTietHoaDon,Number> thanhTienCol
+- Label lblTongTienKhach
++ void initData(ObservableList<ChiTietHoaDon>,SimpleDoubleProperty)
+}
+
+
+class com.nhasach.controller.QuanLyNhanVienController {
+- TextField maNVField
+- PasswordField matKhauField
+- ComboBox<String> quyenComboBox
+- DatePicker ngaySinhPicker
+- TableView<NhanVien> nhanVienTableView
+- TableColumn<NhanVien,String> maNVCol
+- TableColumn<NhanVien,String> TenNVCol
+- TableColumn<NhanVien,String> taiKhoanCol
+- TableColumn<NhanVien,String> quyenCol
+- TableColumn<NhanVien,String> dienThoaiCol
+- TableColumn<NhanVien,String> viTriCol
+- TableColumn<NhanVien,Double> luongCoBanCol
+- TableColumn<NhanVien,LocalDate> ngayVaoLamCol
+- TableColumn<NhanVien,LocalDate> ngaySinhCol
+- ObservableList<NhanVien> nhanVienList
+- NhanVienDAO nhanVienDAO
+~ void initialize()
+- void loadNhanVienData()
+- void showNhanVienDetails(NhanVien)
+~ void lamMoiAction(ActionEvent)
+~ void themAction(ActionEvent)
+~ void suaAction(ActionEvent)
+~ void xoaAction(ActionEvent)
+}
+
+
+class com.nhasach.controller.SachCardController {
+- AnchorPane cardPane
+- ImageView anhSach
+- Label lblTenSach
+- Label lblGia
+- Sach sach
++ void setData(Sach)
+- void openDetail(MouseEvent)
+}
+
+
+class com.nhasach.controller.BaoCaoController {
+- BarChart<String,Number> doanhThuChart
+- HoaDonDAO hoaDonDAO
+~ void initialize()
+}
+
+
+class com.nhasach.controller.BanHangController {
+- TextField searchField
+- TableView<Sach> sachSearchResultTable
+- TableColumn<Sach,String> searchMaSachCol
+- TableColumn<Sach,String> searchTenSachCol
+- TableColumn<Sach,Number> searchDonGiaCol
+- TableColumn<Sach,Number> searchSoLuongCol
+- TableView<ChiTietHoaDon> gioHangTable
+- TableColumn<ChiTietHoaDon,String> cartTenSachCol
+- TableColumn<ChiTietHoaDon,Number> cartSoLuongCol
+- TableColumn<ChiTietHoaDon,Number> cartDonGiaCol
+- TableColumn<ChiTietHoaDon,Number> cartThanhTienCol
+- Label lblTongTien
+- SachDAO sachDAO
+- HoaDonDAO hoaDonDAO
+- ObservableList<ChiTietHoaDon> gioHangList
+- SimpleDoubleProperty tongTien
+- Stage customerStage
+- KhachHangController khachHangController
+~ void initialize()
+- void timKiemSach(String)
+- void themVaoGioHang(Sach)
+~ void xoaKhoiGioHang(ActionEvent)
+- void capNhatTongTien()
+~ void openCustomerDisplay(ActionEvent)
+~ void huyHoaDon(ActionEvent)
+~ void thanhToan(ActionEvent)
+}
+
+
+class com.nhasach.controller.MainViewController {
+- BorderPane mainPane
+- Label lblTenNhanVien
+- Button btnQuanLySach
+- Button btnQuanLyNhanVien
+- Button btnBaoCao
+- Button btnBanHang
+- Button btnQuanLyHoaDon
+- Button btnDangXuat
+- Button btnQuanLyKhachHang
+~ void initialize()
+- void loadView(String)
+~ void showBanHang(ActionEvent)
+- void showQuanLyKhachHang(ActionEvent)
+~ void showQuanLySach(ActionEvent)
+~ void showQuanLyNhanVien(ActionEvent)
+~ void showQuanLyHoaDon(ActionEvent)
+~ void showBaoCao(ActionEvent)
+~ void dangXuat(ActionEvent)
+}
+
+
+@enduml
